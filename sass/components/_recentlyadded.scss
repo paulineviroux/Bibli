@@ -1,0 +1,36 @@
+.main{
+
+    .recentBook{
+        margin-left: 12rem;
+        &__head{
+           font-size: 4.5rem; 
+           padding: 4rem 0 1rem 0;
+           border-bottom: 1px solid black;
+           margin-bottom: 3rem;
+        }
+        &__item{
+            display: inline-block;
+            padding: 0 5.5rem 3rem 0;
+            img{
+                padding-top: 1rem; 
+            }
+        }
+        &__title{
+            text-decoration: none;
+            font-size: 2rem;
+            color: black;
+            padding-right: 2rem;
+        }
+        &__author{
+            text-decoration: none;
+            font-size: 1rem;
+            color: black;
+            display: block;
+            padding-top: .5rem;
+        }
+        &__author:hover, &__author:focus{
+            color: #F0B46A;
+        }
+
+    }
+}

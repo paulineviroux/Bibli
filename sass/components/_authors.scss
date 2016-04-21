@@ -1,0 +1,39 @@
+.mainAuthors{
+
+    .authors{
+    margin-left: 12rem;
+        &__title{
+            font-size: 4.5rem; 
+            padding: 4rem 0 1rem 0;
+            border-bottom: 1px solid black;
+            margin-bottom: 3rem;
+        }
+        &__list{
+
+        }
+        &__item{
+        display: inline-block;
+        padding: 0 4rem 3rem 0;
+            img{
+                padding-top: .5rem;
+            }
+        }
+        &__author{
+            text-decoration: none;
+            font-size: 2rem;
+            color: black;
+            padding-right: 2rem;
+            display: block;
+        }
+
+        &__profile{
+            text-decoration: none;
+            font-size: 1rem;
+            color: black;
+            display: block;
+            padding-top: .5rem;
+        }
+        
+
+    }
+}

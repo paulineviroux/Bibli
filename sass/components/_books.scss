@@ -1,0 +1,67 @@
+.mainBooks{
+    .books{
+      margin-left: 12rem;
+      &__head{
+            font-size: 4.5rem; 
+            padding: 4rem 0 1rem 0;
+            border-bottom: 1px solid black;
+            margin-bottom: 3rem;
+      }
+      &__SearchOptions{
+            margin-bottom: 2rem;
+      }
+      &__label{
+            font-size: 1.3rem;
+            padding-right: 1rem;
+      }
+      &__selectlist{
+            background: transparent;
+            border: 1px solid grey;
+            font-size: 14px;
+            height: 29px;
+            padding: 5px; /* If you add too much padding here, the options won't show in IE */
+            width: 150px;
+      }
+      &__option{
+
+      }
+      &__submit{
+            font-family: fontawesome;
+            border-radius: 50%;
+            border: none;
+            padding: .6rem .5rem;
+            margin-left: 1rem;
+            background-color: #F0B46A;
+      }
+      &__allBooks{
+
+      }
+      &__list{
+
+      }
+      &__book{
+            display: inline-block;
+            padding: 0 4rem 3rem 0;
+            img{
+            padding-top: .5rem;
+            }
+      }
+      
+      &__title{
+            text-decoration: none;
+            font-size: 2rem;
+            color: black;
+            padding-right: 2rem;
+      }
+      &__author{
+            text-decoration: none;
+            font-size: 1rem;
+            color: black;
+            display: block;
+            padding-top: .5rem;
+      }
+      &__author:hover, &__author:focus{
+            color: #F0B46A;
+      }
+    }
+}

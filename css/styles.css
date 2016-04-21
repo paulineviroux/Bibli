@@ -1,0 +1,387 @@
+@charset "UTF-8";
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../assets/fonts/open-sans/opensans-regular-webfont.eot");
+  src: url("../assets/fonts/open-sans/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"), url("../assets/fonts/open-sans/opensans-regular-webfont.woff") format("woff"), url("../assets/fonts/open-sans/opensans-regular-webfont.ttf") format("truetype"), url("../assets/fonts/open-sans/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../assets/fonts/open-sans/opensans-italic-webfont.eot");
+  src: url("../assets/fonts/open-sans/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans/opensans-italic-webfont.woff2") format("woff2"), url("../assets/fonts/open-sans/opensans-italic-webfont.woff") format("woff"), url("../assets/fonts/open-sans/opensans-italic-webfont.ttf") format("truetype"), url("../assets/fonts/open-sans/opensans-italic-webfont.svg#open_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../assets/fonts/open-sans/opensans-semibold-webfont.eot");
+  src: url("../assets/fonts/open-sans/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans/opensans-semibold-webfont.woff2") format("woff2"), url("../assets/fonts/open-sans/opensans-semibold-webfont.woff") format("woff"), url("../assets/fonts/open-sans/opensans-semibold-webfont.ttf") format("truetype"), url("../assets/fonts/open-sans/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../assets/fonts/open-sans/opensans-bold-webfont.eot");
+  src: url("../assets/fonts/open-sans/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"), url("../assets/fonts/open-sans/opensans-bold-webfont.woff") format("woff"), url("../assets/fonts/open-sans/opensans-bold-webfont.ttf") format("truetype"), url("../assets/fonts/open-sans/opensans-bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../assets/fonts/open-sans/opensans-bolditalic-webfont.eot");
+  src: url("../assets/fonts/open-sans/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans/opensans-bolditalic-webfont.woff2") format("woff2"), url("../assets/fonts/open-sans/opensans-bolditalic-webfont.woff") format("woff"), url("../assets/fonts/open-sans/opensans-bolditalic-webfont.ttf") format("truetype"), url("../assets/fonts/open-sans/opensans-bolditalic-webfont.svg#open_sansbold") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Glyphs';
+  src: url("../assets/fonts/fontawesome/fontawesome-webfont.eot");
+  src: url("../assets/fonts/fontawesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/fontawesome/fontawesome-webfont.woff2") format("woff2"), url("../assets/fonts/fontawesome/fontawesome-webfont.woff") format("woff"), url("../assets/fonts/fontawesome/fontawesome-webfont.ttf") format("truetype"), url("../assets/fonts/fontawesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* Bibliothèque de Pauline Viroux
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Pauline Viroux
+ */
+html {
+  font: normal 12px Avenir;
+  color: black; }
+
+.header {
+  min-height: 30rem; }
+
+.aside {
+  float: right;
+  margin-right: 3.5rem;
+  margin-top: 3rem;
+  width: 15rem;
+  line-height: 1.5rem; }
+  .aside__item {
+    font-size: 1.2rem; }
+
+.main {
+  min-height: 500px;
+  width: 65%; }
+
+.mainBooks {
+  min-height: 500px;
+  width: 71%; }
+
+.mainAuthors {
+  min-height: 500px;
+  width: 60%; }
+
+.mainEditors {
+  min-height: 500px;
+  width: 60%; }
+
+.header {
+  background: url("../assets/img/books-bcg.jpg") no-repeat;
+  background-size: 110%;
+  background-position: left 45%; }
+  .header__title {
+    font-size: 9rem;
+    color: #fff;
+    font-family: "Honey Script";
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10rem; }
+  .header .menu__list {
+    background-color: #F0B46A;
+    display: inline-block;
+    border-radius: 10rem;
+    padding: .8rem 1.5rem .8rem 2.5rem;
+    position: relative;
+    bottom: 16rem;
+    right: 2.5rem; }
+  .header .menu__item {
+    display: inline;
+    padding-left: 1rem; }
+    .header .menu__item a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.7rem;
+      font-weight: 500; }
+    .header .menu__item a:hover, .header .menu__item a:focus {
+      color: #AC3F5B; }
+  .header .search {
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    z-index: 10; }
+    .header .search__input {
+      border: none;
+      border-radius: 10rem;
+      padding: .75rem 1rem .75rem 1rem;
+      background-color: #fff;
+      box-shadow: .1rem .1rem 0.5rem #96968E; }
+    .header .search__button {
+      font-family: fontawesome;
+      background-color: transparent;
+      border: none;
+      position: relative;
+      right: 3rem; }
+  .header .connect {
+    position: absolute;
+    top: 3.5rem;
+    right: 14rem;
+    background-color: #F0B46A;
+    border-radius: 10rem;
+    padding: .6rem 3.5rem .6rem 1rem;
+    z-index: 0; }
+    .header .connect__button {
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      padding-right: 1.5rem; }
+    .header .connect__signin {
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem; }
+    .header .connect__signin:hover, .header .connect__signin:focus {
+      color: #AC3F5B;
+      text-decoration: underline; }
+    .header .connect__button:hover, .header .connect__button:focus {
+      color: #AC3F5B;
+      text-decoration: underline; }
+
+.aside {
+  background-color: #F0B46A;
+  display: inline-block;
+  padding: 1rem 3rem 2rem;
+  border-radius: 1rem; }
+  .aside a {
+    text-decoration: none;
+    color: #fff; }
+  .aside a:hover, .aside a:focus {
+    color: #AC3F5B; }
+  .aside__title {
+    font-size: 1.5rem;
+    padding: .8rem 0 .5rem; }
+  .aside__item {
+    list-style-type: disc;
+    padding-left: 0.1rem; }
+
+.footer {
+  background-color: #D1C4B1;
+  padding-top: 5rem; }
+  .footer__designBy {
+    text-align: center; }
+
+.main .recentBook {
+  margin-left: 12rem; }
+  .main .recentBook__head {
+    font-size: 4.5rem;
+    padding: 4rem 0 1rem 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem; }
+  .main .recentBook__item {
+    display: inline-block;
+    padding: 0 5.5rem 3rem 0; }
+    .main .recentBook__item img {
+      padding-top: 1rem; }
+  .main .recentBook__title {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    padding-right: 2rem; }
+  .main .recentBook__author {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    padding-top: .5rem; }
+  .main .recentBook__author:hover, .main .recentBook__author:focus {
+    color: #F0B46A; }
+
+.mainBooks .books {
+  margin-left: 12rem; }
+  .mainBooks .books__head {
+    font-size: 4.5rem;
+    padding: 4rem 0 1rem 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem; }
+  .mainBooks .books__SearchOptions {
+    margin-bottom: 2rem; }
+  .mainBooks .books__label {
+    font-size: 1.3rem;
+    padding-right: 1rem; }
+  .mainBooks .books__selectlist {
+    background: transparent;
+    border: 1px solid grey;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    /* If you add too much padding here, the options won't show in IE */
+    width: 150px; }
+  .mainBooks .books__submit {
+    font-family: fontawesome;
+    border-radius: 50%;
+    border: none;
+    padding: .6rem .5rem;
+    margin-left: 1rem;
+    background-color: #F0B46A; }
+  .mainBooks .books__book {
+    display: inline-block;
+    padding: 0 4rem 3rem 0; }
+    .mainBooks .books__book img {
+      padding-top: .5rem; }
+  .mainBooks .books__title {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    padding-right: 2rem; }
+  .mainBooks .books__author {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    padding-top: .5rem; }
+  .mainBooks .books__author:hover, .mainBooks .books__author:focus {
+    color: #F0B46A; }
+
+.mainAuthors .authors {
+  margin-left: 12rem; }
+  .mainAuthors .authors__title {
+    font-size: 4.5rem;
+    padding: 4rem 0 1rem 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem; }
+  .mainAuthors .authors__item {
+    display: inline-block;
+    padding: 0 4rem 3rem 0; }
+    .mainAuthors .authors__item img {
+      padding-top: .5rem; }
+  .mainAuthors .authors__author {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    padding-right: 2rem;
+    display: block; }
+  .mainAuthors .authors__profile {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    padding-top: .5rem; }
+
+.mainEditors .editors {
+  margin-left: 12rem; }
+  .mainEditors .editors__title {
+    font-size: 4.5rem;
+    padding: 4rem 0 1rem 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem; }
+  .mainEditors .editors__item {
+    padding-top: 1rem; }
+  .mainEditors .editors__editor {
+    color: black;
+    font-size: 2rem;
+    text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */

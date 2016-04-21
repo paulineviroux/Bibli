@@ -1,0 +1,99 @@
+.header{
+        background: url("../assets/img/books-bcg.jpg") no-repeat;
+        background-size: 110%;
+        background-position: left 45%;
+        //border-top: .5rem solid #AE6169;
+        &__title{
+            font-size: 9rem;    
+            color: #fff;
+            font-family: "Honey Script";
+            font-weight: bold;
+            text-align: center;
+            padding-top: 10rem;
+        }
+    .menu{
+        &__list{
+            background-color: #F0B46A;
+            display: inline-block;
+            border-radius: 10rem;
+            padding: .8rem 1.5rem .8rem 2.5rem;
+            position: relative;
+            bottom: 16rem;
+            right: 2.5rem;
+        }
+        &__item{
+            display: inline;
+            padding-left: 1rem;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 1.7rem;
+                font-weight: 500;
+            }
+            a:hover, a:focus{
+                color: #AC3F5B;
+            }
+        }
+          
+    }
+    .search{
+        position: absolute;
+        top: 3.5rem;
+        right: 1rem;
+        z-index: 10;
+        &__input{
+           border: none;
+           border-radius: 10rem;
+           padding: .75rem 1rem .75rem 1rem;
+           //box-shadow: outset 1px 1px 2px 0 #707070;
+           background-color: #fff;
+           box-shadow: .1rem .1rem 0.5rem #96968E;
+
+        }
+        &__button{
+            font-family: fontawesome;
+            background-color: transparent;
+            border: none;
+            position: relative;
+            right: 3rem;
+        }
+    }
+    .connect{
+        position: absolute;
+        top: 3.5rem;
+        right: 14rem;
+        background-color: #F0B46A;
+        border-radius: 10rem; 
+        padding: .6rem 3.5rem .6rem 1rem;
+        z-index: 0;   
+        &__button{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        &__signin{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            //transition: all 2s ease;
+        }
+        &__signin:hover, &__signin:focus{
+            color: #AC3F5B;
+            //font-weight: 500;
+            text-decoration: underline;
+        }
+        &__button:hover, &__button:focus{
+            color: #AC3F5B;
+            //font-weight: 500;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+
+
+
+

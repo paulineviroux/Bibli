@@ -1,0 +1,34 @@
+.aside{
+    background-color: #F0B46A;
+    display: inline-block;
+    padding: 1rem 3rem 2rem;
+    border-radius: 1rem;
+    
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover, a:focus{
+        color: #AC3F5B;
+    }
+    &__title{
+        font-size: 1.5rem;
+        padding: .8rem 0 .5rem;
+    }
+    &__categories{
+
+    }
+    &__list{
+
+    }
+    &__item{
+        list-style-type: disc;
+        padding-left: 0.1rem;
+    }
+    &__books{
+
+    }
+    &__authors{
+        
+    }
+}

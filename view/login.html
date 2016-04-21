@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bibli</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+    <header>
+        <h1 class="header__title">My library</h1>
+        <div class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="../index.html">Home</a></li>
+                <li class="menu__item"><a href="./indexBooks.html">Books</a></li>
+                <li class="menu__item"><a href="./indexAuthors.html">Authors</a></li>
+                <li class="menu__item"><a href="./indexEditors.html">Editors</a></li>
+                <li class="menu__item"><a href="./indexCategories.html">Categories</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="search__input" type="text" placeholder="Harry Potter" name="search">
+            <button class="search__button" type="submit"></button>  
+        </div> 
+        <div class="connect">
+            <a class="connect__button" href="./login.html">Se connecter</a>
+            <a class="connect__signin" href="./signin.html">S'inscrire</a>
+        </div>      
+    </header>
+    <h1></h1>
+    <div class="content">
+        <div class="main">
+            <section class="login">
+            <h2>Se connecter</h2>
+                <form class="login__form">
+                    <label class="login__label" for="id">Identifiant</label>
+                    <input class="login__input" type="text"  placeholder="Eléanore.pauwels" name="id" id="id" required="">
+                    <label class="login__label" for="mdp">Mot de passe</label>
+                    <input class="login__input" type="password" value="Motdepasse"  name="mdp" id="mdp" required="">
+                    <input class="login__submit" type="submit" value="Se connecter">
+                </form>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <small>&copy; Design by Pauline viroux</small>
+    </footer>
+</body>
+</html>
